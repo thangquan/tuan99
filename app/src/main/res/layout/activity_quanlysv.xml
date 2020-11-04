@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrau"
+    tools:context="com.bvp.vietphi.phibvpd01901_assignment.Quanlysv">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh Viên"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        />
+    <Button
+        android:id="@+id/qllop"
+        android:textAllCaps="false"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Lớp"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:textColor="#0000FF"/>
+    <Button
+        android:id="@+id/qlsv"
+        android:textAllCaps="false"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh Viên"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:textColor="#0000FF"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đăng Xuất"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:id="@+id/dx"/>
+</LinearLayout>
+</LinearLayout>
